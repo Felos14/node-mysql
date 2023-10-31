@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    padding: 2rem;
+}
+ul, li {
+    list-style: none;
+    gap: 3rem;
+}
+header {
+    margin-bottom: 1rem;
+}
+header ul {
+    
+    display: flex;
+}
+.book {
+    border: 1px solid #ccc;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.book + .book{
+    margin-top: 1rem;
+}
