@@ -3,8 +3,9 @@
 
     {{#each books}} 
     <div class="book">
-        <h3>Título: {{this.name}}</h3>
+        <h2>Título: {{this.name}}</h2>
         <p>Quantidade de páginas: {{this.pageqty}}</p>
+        <a href="/book/{{this.id}}">Ver mais</a>
     </div>
     {{/each}}
 </main>
