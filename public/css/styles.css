@@ -37,23 +37,24 @@ main h2 {
 .book + .book{
     margin-top: 1rem;
 }
-.buttons a {
-    display: block;
-    text-decoration: none;
-    padding: .5rem;
-    border-radius: .5rem;
-}
 .buttons {
     display: flex;
     gap: 1rem;
     margin-top: 0.5rem;
 }
-.buttons .mais {
-    border: 1px solid crimson;
-    background: crimson;
-    color: white;
-    
+.buttons a,
+.buttons button {
+    display: block;
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: .5rem;
 }
+.buttons .mais{
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white;
+}
+
 .buttons .mais:hover {
     background: white;
     color: crimson;
@@ -67,4 +68,14 @@ main h2 {
 .buttons .edit:hover {
     background: white;
     color: blue;
+}
+.buttons .excluir{
+    border: 1px solid green;
+    background: green;
+    color: white;
+}
+.buttons .excluir:hover{
+    background: white;
+    color: green;
+    cursor: pointer;  
 }
